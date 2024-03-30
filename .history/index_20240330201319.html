@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+
+
+
+</head>
+<body>
+  
+  <nav id="desktop-nav">
+    <div class="logo">Naman Swastik Sahu</div>
+    <div>
+      <ul class="nav-links">
+        <li> <a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li> <a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+  <nav id="hamburger-nav">
+   <div class="logo">Naman Swastik Sahu</div>
+
+   <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="togglemenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+
+    <div class="menu-links">
+      
+        <li> <a href="#about" onclick="togglemenu()">About</a></li>
+        <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+        <li> <a href="#projects" onclick="togglemenu()">Projects</a></li>
+        <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+    </div>
+
+   </div> 
+  </nav>
+
+
+
+
+
+
+
+  <section id="profile">
+    <div class="section__pic-container">
+    <img src="./assets/Naman Pasport 300721 (1).jpg" alt="NSS profile picture" class="myown">
+  </div>
+
+  <div class="section__text">
+  <p class="section__text__p1">Hello, I'm</p>
+  <h1 class="title">Naman Swastik Sahu</h1>
+  <p class="section__text__p2">Full Stack Developer</p>
+
+  <div class="btn-container">
+    <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV </button>
+    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+      Contact Info
+    </button>
+  </div>
+
+  <div id="socials-container"></div>
+  <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/naman-swastik-sahu-6304621b3/'">
+
+
+  <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/NamanSahu09'">
+</div>
+  </section>
+
+
+
+  
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+
+
+
+    <div class="section-container">
+      
+      <div class="section__pic-container">
+        <img
+          src="./assets/DSC_0185.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Experience</h3>
+            <p>Fresher <br />Full Stack Development</p>
+          </div>
+
+          
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Sc. Computer Science<br />Cyber Security (Hons.)</p>
+          </div>
+        </div>
+    <div class="text-container">
+      <p>A dedicated Aspiring Security Engineer and Software Developer, I thrive on tackling tech challenges and devising innovative solutions. Proficient in Computer Networks, Linux, Java, Oracle SQL, MERN Stack, and Android Development, I safeguard against cyber threats while crafting impactful projects. Off the screen, I excel on the cricket field, embodying teamwork and strategy. Badminton sharpens my reflexes, mirroring my agile problem-solving approach. Gaming fuels my competitiveness and prepares me for real-world challenges. With effective communication skills, I foster collaboration and excel in building professional relationships. As a lifelong learner, I embrace new opportunities for growth in cybersecurity and software development.</p>
+    </div>
+  </div>
+</div>
+<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+
+
+
+
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Fullstack Development</h2>
+        <div class="article-container">
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>JAVA</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>MYSQL</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>Spring Boot</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>React JS,Node</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>MongoDB</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>C/C++</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+
+
+
+
+        </div>
+      </div>
+
+
+      <div class="details-container">
+        <h2 class="experience-sub-title">Fullstack Development</h2>
+        <div class="article-container">
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>GIT</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>CSS</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>JavaScript</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>Burpsuite</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+
+
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+            <div>
+              <h3>Nmap,Metasploit</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+</section>
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

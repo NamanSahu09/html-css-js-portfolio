@@ -1,0 +1,28 @@
+@media screen and (max-width: 1400px)
+{
+  #profile
+  {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-cont
+
+}
+
+
+
+@media screen and (max-width: 1100px)
+{
+  #desktop-nav
+{
+  display: none;
+}
+
+#hamburger-nav
+{
+  display:flex;
+}
+
+}
+
+
